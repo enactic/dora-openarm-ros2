@@ -1,0 +1,14 @@
+Traceback (most recent call last):
+  File "/home/toki/workdir.public/dora-openarm-ros2/.venv/bin/dora-openarm-ik", line 4, in <module>
+    from dora_openarm_ik import main
+  File "/home/toki/workdir.public/dora-openarm-ros2/.venv/lib/python3.13/site-packages/dora_openarm_ik/__init__.py", line 15, in <module>
+    from dora_openarm_ik.ik import main
+  File "/home/toki/workdir.public/dora-openarm-ros2/.venv/lib/python3.13/site-packages/dora_openarm_ik/ik.py", line 42, in <module>
+    from openarm_control import (
+    ...<5 lines>...
+    )
+  File "/home/toki/workdir.public/dora-openarm-ros2/.venv/lib/python3.13/site-packages/openarm_control/__init__.py", line 15, in <module>
+    from openarm_control.config import ArmSetup, register_common_args, setup_from_args
+  File "/home/toki/workdir.public/dora-openarm-ros2/.venv/lib/python3.13/site-packages/openarm_control/config.py", line 23, in <module>
+    from openarm_mujoco_v2 import JointResolver
+ImportError: cannot import name 'JointResolver' from 'openarm_mujoco_v2' (/home/toki/workdir.public/dora-openarm-ros2/.venv/lib/python3.13/site-packages/openarm_mujoco_v2/__init__.py)

@@ -1,0 +1,14 @@
+Traceback (most recent call last):
+  File "/home/toki/workdir.public/dora-openarm-ros2/.venv/bin/dora-openarm-quitter", line 10, in <module>
+    sys.exit(main())
+             ~~~~^^
+  File "/home/toki/workdir.public/dora-openarm-ros2/.venv/lib/python3.13/site-packages/dora_openarm_quitter/main.py", line 22, in main
+    node = dora.Node()
+RuntimeError: Could not initiate node from environment variable. For dynamic node, please add a node id in the initialization function.
+
+Caused by:
+   0: failed to init event stream
+   1: subscribe failed: Node ik exited before initializing dora. For more information, run `dora logs 019e4e10-e340-7d77-8259-287fff6e7967 ik`.
+
+Location:
+    apis/rust/node/src/event_stream/mod.rs:211:17

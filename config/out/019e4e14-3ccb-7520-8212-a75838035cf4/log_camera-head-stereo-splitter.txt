@@ -1,0 +1,14 @@
+Traceback (most recent call last):
+  File "/home/toki/workdir.public/dora-openarm-ros2/.venv/bin/dora-opencv-image-splitter", line 10, in <module>
+    sys.exit(main())
+             ~~~~^^
+  File "/home/toki/workdir.public/dora-openarm-ros2/.venv/lib/python3.13/site-packages/dora_opencv_image_splitter/main.py", line 146, in main
+    node = Node()
+RuntimeError: Could not initiate node from environment variable. For dynamic node, please add a node id in the initialization function.
+
+Caused by:
+   0: failed to init event stream
+   1: subscribe failed: Node ik exited before initializing dora. For more information, run `dora logs 019e4e14-3ccb-7520-8212-a75838035cf4 ik`.
+
+Location:
+    apis/rust/node/src/event_stream/mod.rs:211:17
