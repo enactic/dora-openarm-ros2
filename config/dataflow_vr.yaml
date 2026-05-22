@@ -71,7 +71,7 @@ nodes:
 
   # ── MuJoCo viewer  ──
   - id: mujoco-viewer
-    build: pip install -e /home/toki/workdir.public/dora-openarm-mujoco
+    build: pip install git+https://github.com/enactic/dora-openarm-mujoco
     path: dora-openarm-mujoco
     args: "--keyframe home --viewer --debug-frames "
     inputs:
@@ -153,14 +153,6 @@ nodes:
   #     tick: quittable-tick-camera/tick
   #   outputs:
   #     - image
-
-  # - id: dora-to-ros2
-  #   build: pip install -e ..
-  #   path: openarm-dora-ros2
-  #   inputs:
-  #     left_position: ik/position_left
-  #     right_position: ik/position_right
-  #     camera_image: dummy-camera/image
 
   - id: dora-to-ros2
     build: pip install -e ..
