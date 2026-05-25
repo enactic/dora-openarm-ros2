@@ -11,6 +11,7 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
+
 """Dora-to-ROS2 Bridge Node.
 
 This node acts as a state holder and message translator between the Dora dataflow
@@ -18,7 +19,6 @@ and ROS 2 control interfaces. It subscribes to joint position and camera inputs
 from the Dora graph and forwards them to the appropriate ROS 2 controllers.
 """
 
-#!/usr/bin/env python
 import time
 
 import dora
