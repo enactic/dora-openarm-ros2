@@ -1,0 +1,4 @@
+config/out/
+src/*.egg-info/
+uv.lock
+**/__pycache__/

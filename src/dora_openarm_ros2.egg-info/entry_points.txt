@@ -1,2 +1,0 @@
-[console_scripts]
-openarm-dora-ros2 = dora_ros2_bridge.main:main
