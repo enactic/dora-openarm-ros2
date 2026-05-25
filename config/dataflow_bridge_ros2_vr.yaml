@@ -169,9 +169,9 @@ nodes:
     build: pip install -e ..
     path: openarm-dora-ros2
     inputs:
-        left_position:       ik/position_left
-        right_position:      ik/position_right
-        camera_wrist_right:  camera-wrist-right/image
-        camera_wrist_left:   camera-wrist-left/image
-        camera_head_left:    camera-head-stereo-splitter/image_0
-        camera_head_right:   camera-head-stereo-splitter/image_1
+      left_position:       ik/position_left
+      right_position:      ik/position_right
+      camera_wrist_right:  camera-wrist-right/image
+      camera_wrist_left:   camera-wrist-left/image
+      camera_head_left:    camera-head-stereo-splitter/image_0
+      camera_head_right:   camera-head-stereo-splitter/image_1
