@@ -41,7 +41,6 @@ nodes:
 
 | Topic | Type | Description |
 | --- | --- | --- |
-| `/joint_states` | `sensor_msgs/JointState` | Current joint positions, velocities, and efforts for all joints (observation). |
 | `/left_joint_trajectory_controller/joint_trajectory` | `trajectory_msgs/JointTrajectory` | Left arm joint trajectory commands. |
 | `/right_joint_trajectory_controller/joint_trajectory` | `trajectory_msgs/JointTrajectory` | Right arm joint trajectory commands. |
 | `/left_gripper_controller/joint_trajectory` | `trajectory_msgs/JointTrajectory` | Left gripper trajectory commands. |
